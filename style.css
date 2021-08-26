@@ -11,14 +11,19 @@ body {
   border-top: 2px solid #dddddd;
   border-bottom: 2px solid #dddddd;
   background-color: rgba(0,0,0,0.2);
+  border-radius: 5px;
 }
 
 h2,h3 {
-  text-align: ;
+  text-align: center;
   background-color: ;
 }
 
-ul {
+ul, .contact {
   border: 1px solid DodgerBlue;
   border-radius: 5px;
+}
+
+a:visited {
+  color: #dddddd
 }
