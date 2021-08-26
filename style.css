@@ -3,6 +3,7 @@ body {
   color: #dddddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
+  background-image: url("http://r3dking.github.io/leafbackground.jpg");
 }
 
 .exp-header {
@@ -10,14 +11,14 @@ body {
   text-transform: uppercase;
   border-top: 2px solid #dddddd;
   border-bottom: 2px solid #dddddd;
-  background-color: rgba(0,0,0,0.2);
+  background-color: orange;
   border-radius: 5px;
   margin-top: 10%;
 }
 
 h1 {
   text-align: center;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.8);
   border-top: 2px solid #dddddd;
   border-bottom: 2px solid #dddddd;
   border-radius: 5px;
@@ -27,13 +28,19 @@ h1 {
 
 h2,h3,h4 {
   text-align: center;
+  color: ;
   background-color: ;
 }
 
+h4 {
+  background-color: orange;
+  padding-left: 
+}
+
 ul, .contact {
-  border: 1px solid DodgerBlue;
+  border: 1px solid #AFBFDC;
   border-radius: 5px;
-  background-color: Dodgerblue;
+  background-color: #4E873E;
   padding-left: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -50,8 +57,5 @@ a:visited {
 a:hover {
   color: Azure;
 }
-
-.contact {
-  background-color: DodgerBlue;
   padding: 0%;
 }
