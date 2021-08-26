@@ -26,6 +26,10 @@ ul, .contact {
   background-color: Dodgerblue;
 }
 
+a:link {
+  color: #dddddd
+}
+
 a:visited {
   color: #dddddd
 }
