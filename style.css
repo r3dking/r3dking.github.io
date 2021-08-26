@@ -14,7 +14,7 @@ body {
   border-radius: 5px;
 }
 
-h2,h3 {
+h2,h3,h4 {
   text-align: center;
   background-color: ;
 }
@@ -22,8 +22,18 @@ h2,h3 {
 ul, .contact {
   border: 1px solid DodgerBlue;
   border-radius: 5px;
+  background-color: Dodgerblue;
 }
 
 a:visited {
   color: #dddddd
+}
+
+a:hover {
+  color: Azure;
+}
+
+.contact {
+  background-color: DodgerBlue;
+  padding: 0%;
 }
