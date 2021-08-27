@@ -7,7 +7,7 @@ body {
 }
 
 .exp-header {
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   border-top: 0px solid cornsilk;
   border-bottom: 0px solid cornsilk;
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
   background-color: cornsilk;
   border-top: 10px solid darkgreen;
   border-bottom: 10px solid darkgreen;
@@ -27,7 +27,13 @@ h1 {
   
 }
 
-h2,h3,h4 {
+h2 {
+  text-align: center;
+  color: orange;
+  background-color: cornsilk;
+}
+
+h3,h4 {
   text-align: left;
   color: Orange;
   background-color: Cornsilk;
