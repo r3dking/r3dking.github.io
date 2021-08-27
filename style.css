@@ -1,6 +1,6 @@
 body {
-  background-color: DarkSlateGrey;
-  color: #dddddd;
+  background-color: Cornsilk;
+  color: Orange;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
   background-image: url("http://r3dking.github.io/leafbackground.jpg");
@@ -9,53 +9,56 @@ body {
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 2px solid #dddddd;
-  border-bottom: 2px solid #dddddd;
-  background-color: orange;
+  border-top: 2px solid cornsilk;
+  border-bottom: 2px solid cornsilk;
+  background-color: c;
   border-radius: 5px;
   margin-top: 10%;
 }
 
 h1 {
   text-align: center;
-  background-color: rgba(0,0,0,0.8);
+  background-color: cornsilk;
   border-top: 2px solid #dddddd;
   border-bottom: 2px solid #dddddd;
   border-radius: 5px;
   padding: 7%;
+  color: Orange;
   
 }
 
 h2,h3,h4 {
   text-align: center;
-  color: ;
-  background-color: ;
+  color: Orange;
+  background-color: Cornsilk;
 }
 
 h4 {
-  background-color: orange;
+  color: Orange;
+  background-color: Cornsilk;
   padding-left: 
 }
 
 ul, .contact {
-  border: 1px solid #AFBFDC;
-  border-radius: 5px;
-  background-color: #4E873E;
+  border: 10px solid DarkGreen;
+  border-radius: 15px;
+  background-color: Cornsilk;
   padding-left: 10%;
   padding-top: 3%;
   padding-bottom: 3%;
 }
 
 a:link {
-  color: #dddddd
+  color: Orange;
+  background-color: Cornsilk;
 }
 
 a:visited {
-  color: #dddddd
+  color: DarkSalmon;
 }
 
 a:hover {
-  color: Azure;
+  color: Coral;
 }
   padding: 0%;
 }
