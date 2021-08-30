@@ -8,28 +8,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
   
+  
 <body>
   
   <div>
-    <h1>Rory Scherer</h1>
-  </div>
+  <button class="tablink" onclick="openPage('Rory', this, '')">Rory</button>
+<button class="tablink" onclick="openPage('Education', this, '')" id="defaultOpen">Education</button>
+<button class="tablink" onclick="openPage('Work Exp', this, '')">Work Exp</button>
+<button class="tablink" onclick="openPage('About', this, '')">About</button>
   
-  <div class="contact">
-    <p>15851 Round Lake Blvd Andover,
-    MN 55304 / rory.w.scherer@gmail.com /
-    651.528.9327
-    </p>
-  </div>
-  
-  <div class="exp-header">
-     <h2>Education</h2>
-  </div>
+  <div id="Rory" class="tabcontent">
+  <h3>Rory</h3>
+    <div class="contact">
+      
+      <p>There is an old saying, "A jack of all traders is a master of none." A saying that says something sweet and follows with something sour to concievably to caution from an interdisciplinary focus. But, that is not the entire phrase as some may know it. It finishes "...is oftentimes better than a master of one."
+      </p>
+      
+      <p>15851 Round Lake Blvd Andover,
+      MN 55304 / rory.w.scherer@gmail.com /
+      651.528.9327
+      </p>
+    </div>
+</div>
+
+<div id="Education" class="tabcontent">
+  <h3>Education</h3>
   
   <div>
     <h3><a href="https://www.hamline.edu" target="_blank">Hamline University '19</a></h3>
   </div>
   
-  <h4>Class of 2019<h4>
+  <h4>Class of 2019</h4>
      
       <ul>
         <li>Graduated Cum Laude</li>
@@ -50,7 +59,10 @@
         <li>Associates Degree</li>
         <li>Student Art Show Purchase Award</li>
       </ul>
-    
+</div>
+
+<div id="Work Exp" class="tabcontent">
+  <h3>Work Experience</h3>
   <div class="exp-header">
     <h2>Work Experience</h2>
   </div>
@@ -99,7 +111,16 @@
         <li>Collaborated with managers to meet profit margins</li>
         <li>Designs featured in MNSF 2015 Eco-Experience Building and MN Landscape Arboretum’s 2016 “Savage Gardens” & “Big Bugs” exhibits</li>
       </ul>
-      
   
-</body>
-</html>
+  //maybe add back a div here
+  
+  </div>
+
+<div class="footer">
+  <p>rory.w.scherer@gmail.com /
+      651.528.9327 / 15851 Round Lake Blvd Andover,
+      MN 55304 </p>
+</div>
+    
+  
+  
