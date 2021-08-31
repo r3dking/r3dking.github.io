@@ -3,7 +3,12 @@ body {
   color: DarkSalmon;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
-  background-image: url("http://r3dking.github.io/leafbackground.jpg");
+  background-image: url("https://r3dking.github.io/leafbackground.jpg");
+}
+
+img {
+  float: right;
+  width: 25%;
 }
 
 .exp-header {
