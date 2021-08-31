@@ -12,6 +12,17 @@ body {
   float: right;
 }
 
+.cover-note {
+   border: 4px solid BurlyWood;
+  border-radius: 20px;
+  background-color: Cornsilk;
+  padding-left: 10%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 15%;
+  margin: 1
+}
+
 .exp-header {
   text-align: center;
   text-transform: uppercase;
@@ -54,7 +65,7 @@ h4 {
   text-align: center;
 }
 
-ul, .cover-note {
+ul {
   border: 4px solid BurlyWood;
   border-radius: 20px;
   background-color: Cornsilk;
