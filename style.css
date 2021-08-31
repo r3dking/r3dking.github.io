@@ -6,10 +6,10 @@ body {
   background-image: url("https://r3dking.github.io/leafbackground.jpg");
 }
 
-img {
+.responsive {
+  max-width: 45%;
+  height: auto;
   float: right;
-  width: 45%;
-  padding: 3%
 }
 
 .exp-header {
