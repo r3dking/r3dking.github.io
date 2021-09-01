@@ -6,12 +6,17 @@ body {
   background-image: url("https://r3dking.github.io/leafbackground.jpg");
 }
 
+img {
+  border: 5px;
+  border-color: #dddddd
+}
+
 .responsive {
   max-width: auto;
-  max-height: 250px;
+  max-height: 200px;
   float: right;
   padding-top: 8%;
-  padding-right: 10%
+  padding-right: 10%;
 }
 
 .cover-note {
